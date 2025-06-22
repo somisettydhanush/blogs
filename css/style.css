@@ -30,6 +30,11 @@ box-sizing: border-box;
 .heading h3{
     color: #777;
 }
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 8px;
+}
 /* .cards{
     width: 100%;
     height: 100px;
